@@ -1,12 +1,30 @@
-.h1 {
-  font: 700 2rem/1.5 'Alfa Slab One', cursive;
-  letter-spacing: 0.015em;
-  
+.font-h1 {
+  font: 2rem/1.5 "Alfa Slab One", cursive;
+  letter-spacing: 0.02em;
 }
 
+.font-h2 {
+  font: 1.5rem/1.5 "Alfa Slab One", cursive;
+  letter-spacing: 0.02em;
+}
 
+.font-p1 {
+  font: 400 1rem/1.5 "Roboto", sans-serif;
+}
+.font-p1-b {
+  font: 700 1rem/1.5 "Roboto", sans-serif;
+}
+.font-p1-s {
+  font: 400 0.875rem/1.5 "Roboto", sans-serif;
+}
+.font-p1-xs-b {
+  font: 700 0.75rem/1.5 "Roboto", sans-serif;
+}
 
+.font-p2-b {
+  font: 700 1.5rem/1.5 "Roboto", sans-serif;
+}
 
-
-font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif;
+.font-btn {
+  font: 600 2rem/1.5 "Poppins", sans-serif;
+}
