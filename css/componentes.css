@@ -8,7 +8,7 @@
   background-color: #FFBB00;
   padding: 20px 87px;
   border-radius: 4px;
-  display: block;
+  display: inline-block;
   text-align: center;
   cursor: pointer;
 }

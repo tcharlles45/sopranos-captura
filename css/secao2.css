@@ -8,6 +8,7 @@
 
 .aulas > h1 {
   padding-top: 60px;
+  padding-bottom: 60px;
   text-align: center;
 }
 
@@ -16,12 +17,14 @@
   gap: 42px;
 }
 
+/*CARDS INICIO*/
 .scene {
   width: 360px;
   height: 480px;
   perspective: 600px;
   background-color: black;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .card {
@@ -82,4 +85,131 @@
 
 .card.is-flipped {
   transform: rotateY(180deg);
+}
+
+/*CARDS 2*/
+
+.card2 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: transform 0.7s;
+  transform-style: preserve-3d;
+}
+
+.card-front2 {
+  background-image: url("/img/aula3.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  height: 480px;
+  width: 360px;
+  border-radius: 4px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  filter: drop-shadow(2px 2px 5px #ffbb00);
+}
+.card-back2 {
+  height: 480px;
+  max-width: 360px;
+  padding: 25px 60px;
+  box-shadow: 2px 2px 5px 0px #ffbb00;
+  transform: rotateY(180deg);
+}
+
+.card-front2 > span {
+  margin: 0 auto;
+  max-width: 160px;
+  display: block;
+  padding-bottom: 10px;
+  padding-top: 4px;
+  border-top: 1px dashed #ffbb00;
+}
+
+.card-back2 > p {
+  padding-top: 20px;
+}
+.card-back2 > span {
+  padding-top: 40px;
+  text-align: center;
+  display: block;
+}
+
+.card2.is-flipped {
+  transform: rotateY(180deg);
+}
+
+/*CARDS 3*/
+
+.card3 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: transform 0.7s;
+  transform-style: preserve-3d;
+}
+
+.card-front3 {
+  background-image: url("/img/aula2.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  height: 480px;
+  width: 360px;
+  border-radius: 4px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  filter: drop-shadow(2px 2px 5px #ffbb00);
+}
+.card-back3 {
+  height: 480px;
+  max-width: 360px;
+  padding: 25px 60px;
+  box-shadow: 2px 2px 5px 0px #ffbb00;
+  transform: rotateY(180deg);
+}
+
+.card-front3 > span {
+  margin: 0 auto;
+  max-width: 160px;
+  display: block;
+  padding-bottom: 10px;
+  padding-top: 4px;
+  border-top: 1px dashed #ffbb00;
+}
+
+.card-back3 > p {
+  padding-top: 20px;
+}
+.card-back3 > span {
+  padding-top: 40px;
+  text-align: center;
+  display: block;
+}
+
+.card3.is-flipped {
+  transform: rotateY(180deg);
+}
+
+/*CARDS FIM*/
+.aulas-chamada {
+  padding-top: 100px;
+}
+
+.aulas-chamada > img {
+  max-width: 308px;
+  padding-bottom: 20px;
+}
+
+.aulas-chamada > p {
+  max-width: 340px;
+  margin-bottom: 10px;
+}
+
+.aulas-chamada > a {
+  padding: 17px 35px;
 }
