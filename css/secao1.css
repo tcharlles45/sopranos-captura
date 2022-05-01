@@ -1,0 +1,66 @@
+.inicio-bg {
+  background-image: url("/img/bg-1.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  height: 900px;
+}
+
+.logo {
+  padding: 100px 0 20px 0;
+}
+
+.inicio h1 {
+  margin-bottom: 12px;
+  max-width: 560px;
+}
+.inicio > p {
+  margin-bottom: 12px;
+  max-width: 500px;
+}
+
+.inicio-detalhes {
+  margin-bottom: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+.data {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.gratuito {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.inscricao {
+  max-width: 560px;
+}
+
+.form {
+  height: 57px;
+  width: 553px;
+  background: #dedede;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-bottom: 4px;
+}
+
+.form::placeholder {
+  color: #121212;
+  opacity: 1;
+  font-weight: 400;
+}
+
+.dados-seguros {
+  padding-top: 8px;
+  display: flex;
+  gap: 8px;
+  margin-left: 150px;
+}

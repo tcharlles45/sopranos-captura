@@ -5,7 +5,7 @@
 
 .font-h2 {
   font: 1.5rem/1.5 "Alfa Slab One", cursive;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.04em;
 }
 
 .font-p1 {
@@ -19,6 +19,10 @@
 }
 .font-p1-xs-b {
   font: 700 0.75rem/1.5 "Roboto", sans-serif;
+  letter-spacing: 0.015em;
+}
+.font-p1-xs {
+  font: 400 0.75rem/1.5 "Roboto", sans-serif;
 }
 
 .font-p2-b {
@@ -27,4 +31,5 @@
 
 .font-btn {
   font: 600 2rem/1.5 "Poppins", sans-serif;
+  text-transform: uppercase;
 }

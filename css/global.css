@@ -33,3 +33,10 @@ img {
   max-width: 100%;
   display: block;
 }
+
+input {
+  display: block;
+  max-width: 100%;
+  text-decoration: none;
+  border: none;
+}
