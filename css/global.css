@@ -40,3 +40,7 @@ input {
   text-decoration: none;
   border: none;
 }
+
+button {
+  border-style: none;
+}

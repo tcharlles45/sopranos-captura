@@ -64,3 +64,67 @@
   gap: 8px;
   margin-left: 150px;
 }
+
+@media (max-width: 1440px) {
+  .inicio-bg {
+    background-image: url("../img/bg-1-1440.jpg");
+  }
+}
+@media (max-width: 1024px) {
+  .inicio-bg {
+    background-image: url("../img/bg-1-1024.jpg");
+  }
+}
+
+@media (max-width: 768px) {
+  .inicio-bg {
+    background-image: url("../img/bg-1-768.jpg");
+  }
+  .form {
+    width: 385px;
+  }
+  .inscricao button {
+    max-width: 400px;
+    padding: 10px 50px;
+    font-size: 1.5rem;
+  }
+  .dados-seguros {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 430px) {
+  .inicio-bg {
+    background-image: url("../img/bg-1-430.jpg");
+    height: 1200px;
+  }
+  .logo {
+    padding-top: 342px;
+    min-width: 250px;
+  }
+  .inicio h1 {
+    font-size: 1.75rem;
+  }
+  .inicio-detalhes {
+    gap: 10px;
+  }
+  .inscricao button {
+    font-size: 1.375rem;
+    padding: 10px 20px;
+  }
+
+  .form {
+    height: 48px;
+  }
+}
+
+@media (max-width: 370px) {
+  .inicio-bg {
+    background-image: url("../img/bg-1-370.jpg");
+    height: 1300px;
+  }
+  .inscricao button {
+    font-size: 1.125rem;
+    padding: 10px 20px;
+  }
+}
