@@ -1,5 +1,5 @@
 .aulas-bg {
-  background-image: url("/img/bg-2.jpg");
+  background-image: url("../img/bg-2.jpg");
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -43,7 +43,7 @@
 }
 
 .card-front {
-  background-image: url("/img/aula1.jpg");
+  background-image: url("../img/aula1.jpg");
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -98,7 +98,7 @@
 }
 
 .card-front2 {
-  background-image: url("/img/aula3.jpg");
+  background-image: url("../img/aula3.jpg");
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -152,7 +152,7 @@
 }
 
 .card-front3 {
-  background-image: url("/img/aula2.jpg");
+  background-image: url("../img/aula2.jpg");
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
