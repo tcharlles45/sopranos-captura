@@ -17,6 +17,10 @@
   gap: 42px;
 }
 
+.card-face > p {
+  margin-bottom: 14px;
+}
+
 /*CARDS INICIO*/
 .scene {
   width: 360px;
@@ -59,9 +63,9 @@
 
 .card-front > span {
   margin: 0 auto;
-  max-width: 160px;
+  max-width: 180px;
   display: block;
-  padding-bottom: 10px;
+  padding-bottom: 12px;
   padding-top: 4px;
   border-top: 1px dashed #ffbb00;
 }
@@ -121,9 +125,9 @@
 
 .card-front2 > span {
   margin: 0 auto;
-  max-width: 160px;
+  max-width: 180px;
   display: block;
-  padding-bottom: 10px;
+  padding-bottom: 12px;
   padding-top: 4px;
   border-top: 1px dashed #ffbb00;
 }
@@ -175,9 +179,9 @@
 
 .card-front3 > span {
   margin: 0 auto;
-  max-width: 160px;
+  max-width: 180px;
   display: block;
-  padding-bottom: 10px;
+  padding-bottom: 12px;
   padding-top: 4px;
   border-top: 1px dashed #ffbb00;
 }

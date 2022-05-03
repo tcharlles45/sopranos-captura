@@ -43,8 +43,8 @@
 }
 
 .form {
-  height: 57px;
-  width: 553px;
+  height: 50px;
+  width: 505px;
   background: #dedede;
   border-radius: 4px;
   padding: 10px 20px;
@@ -93,7 +93,7 @@
   }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 435px) {
   .inicio-bg {
     background-image: url("../img/bg-1-430.jpg");
     height: 1200px;
@@ -115,6 +115,7 @@
 
   .form {
     height: 48px;
+    width: 300px;
   }
 }
 
